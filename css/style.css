@@ -27,6 +27,7 @@ body{
     background-color: aqua;
     border-radius: 50%;
     border: 3px solid gray;
+    position: relative;
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
@@ -49,6 +50,7 @@ body{
     justify-content: inherit;
     border: 3px solid blue;
 }
+
 .marcador_numeros::before{
     content: "";
     width: 470px;
@@ -56,4 +58,36 @@ body{
     border-radius: 50%;
     position: absolute;
     border: 3px solid blue;
+}
+
+.numero__12{
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    padding: 5px;
+    /*border: 3px solid blue;*/
+}
+
+.numero__3{
+    position: absolute;
+    right: 25px;
+    font-size: 40px;
+    padding: 5px;
+    /*border: 3px solid blue;*/
+}
+
+.numero__6{
+    position: absolute;
+    bottom: 10px;
+    font-size: 40px;
+    padding: 5px;
+    /*border: 3px solid blue;*/
+}
+
+.numero__9{
+    position: absolute;
+    left: 25px;
+    font-size: 40px;
+    padding: 5px;
+    /*border: 3px solid blue;*/
 }
