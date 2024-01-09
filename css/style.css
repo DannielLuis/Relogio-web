@@ -101,3 +101,21 @@ body{
     transform-origin: bottom center;
 }
 
+.ponteiro__minuto {
+    width: 15px;
+    height: 240px;
+    background-color: blue;
+    position: absolute;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.ponteiro__hora {
+    width: 8px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
