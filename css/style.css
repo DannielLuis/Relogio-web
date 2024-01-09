@@ -60,37 +60,17 @@ body{
     border: 3px solid blue;
 }
 
-.numero__12{
+.numero{
     position: absolute;
-    top: 10px;
-    font-size: 40px;
     padding: 5px;
+    font-size: 40px;
     /*border: 3px solid blue;*/
 }
 
-.numero__3{
-    position: absolute;
-    right: 25px;
-    font-size: 40px;
-    padding: 5px;
-    /*border: 3px solid blue;*/
-}
-
-.numero__6{
-    position: absolute;
-    bottom: 10px;
-    font-size: 40px;
-    padding: 5px;
-    /*border: 3px solid blue;*/
-}
-
-.numero__9{
-    position: absolute;
-    left: 25px;
-    font-size: 40px;
-    padding: 5px;
-    /*border: 3px solid blue;*/
-}
+.numero__12{top: 10px;}
+.numero__3{right: 25px;}
+.numero__6{bottom: 10px;}
+.numero__9{left: 25px;}
 
 .ponteiro__segundo{
     width: 3px;
