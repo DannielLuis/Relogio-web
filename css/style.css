@@ -21,6 +21,15 @@ body{
     border: 3px solid blue;
 }
 
+.fundo{
+    width: 670px;
+    height: 670px;
+    border-radius: 670px;
+    position: absolute;
+    border: 1px solid #000;
+    background: radial-gradient(rgb(87, 77, 77) 60%, white 70%, black);
+}
+
 .relogio{
     width: 600px;
     height: 600px;
