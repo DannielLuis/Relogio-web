@@ -82,12 +82,15 @@ body{
 .numero__9{left: 25px;}
 
 .ponteiro__segundo{
-    width: 3px;
-    height: 200px;
+    width: 4px;
+    height: 250px;
     background-color: brown;
     position: absolute;
-    transform: translate(0, -50%);
+    bottom: 50%;
+    border-radius: 5px;
+    /*transform: translate(0, -50%);*/
     transform-origin: bottom center;
+    z-index: 10;
 }
 
 .ponteiro__minuto {
