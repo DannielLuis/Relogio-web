@@ -33,7 +33,12 @@ body{
 .relogio{
     width: 600px;
     height: 600px;
-    background-color: aqua;
+    /*background-color: aqua;*/
+    background-color: #000;
+    background-image: url('../ct_pesadelo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 86%;
     border-radius: 50%;
     border: 3px solid gray;
     position: relative;
@@ -74,6 +79,7 @@ body{
     padding: 5px;
     font-size: 40px;
     /*border: 3px solid blue;*/
+    color: white;
 }
 
 .numero__12{top: 10px;}
