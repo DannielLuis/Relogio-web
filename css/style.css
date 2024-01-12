@@ -33,12 +33,11 @@ body{
 .relogio{
     width: 600px;
     height: 600px;
-    /*background-color: aqua;*/
     background-color: #000;
-    /*background-image: url('../ct_pesadelo.jpg');
+    background-image: url('../ct_pesadelo.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 86%;*/
+    background-size: 86%;
     border-radius: 50%;
     border: 3px solid gray;
     position: relative;
@@ -48,10 +47,11 @@ body{
 }
 
 .center{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: red;
+    border: 0.2px solid #000;
 }
 
 .marcador_numeros{
@@ -86,13 +86,11 @@ body{
 .numero__1{
     top: 45px;
     right: 155px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__2{
     top: 140px;
     right: 60px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__3{right: 25px;}
@@ -100,13 +98,11 @@ body{
 .numero__4{
     bottom: 140px;
     right: 60px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__5{
     bottom: 45px;
     right: 155px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__6{bottom: 10px;}
@@ -114,13 +110,11 @@ body{
 .numero__7{
     bottom: 45px;
     left: 155px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__8{
     bottom: 140px;
     left: 60px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__9{left: 25px;}
@@ -128,25 +122,21 @@ body{
 .numero__10{
     top: 140px;
     left: 50px;
-    /*border: 3px solid blue;*/
 }
 
 .numero__11{
     top: 45px;
     left: 145px;
-    /*border: 3px solid blue;*/
 }
 
 .ponteiro__segundo{
     width: 5px;
     height: 250px;
-    /*background-color: brown;*/
     background-color: #fff;
     border: 0.1px solid #000;
     position: absolute;
     bottom: 50%;
     border-radius: 5px;
-    /*transform: translate(0, -50%);*/
     transform-origin: bottom center;
     z-index: 10;
 }
@@ -154,18 +144,16 @@ body{
 .ponteiro__minuto {
     width: 10px;
     height: 260px;
-    /*background-color: blue;*/
     background-color: #fff;
     border: 0.2px solid #000;
     position: absolute;
-    transform: translate(0, -50%) rotate(330deg);
+    transform: translate(0, -50%);
     transform-origin: bottom center;
 }
 
 .ponteiro__hora {
     width: 10px;
     height: 200px;
-    /*background-color: red;*/
     background-color: #fff;
     border: 0.2px solid #000;
     position: absolute;
