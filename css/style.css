@@ -196,3 +196,45 @@ body{
         height: 130px;
     }
 }
+
+@media (max-width: 500px){
+    .fundo{
+        width: 350px;
+        height: 350px;
+    }
+
+    .relogio{
+        width: 300px;
+        height: 300px;
+    }
+
+    .center{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+
+    .numero{
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .numero__12{top: 1%;}
+    .numero__3{right: 3%;}
+    .numero__6{bottom: 0.5%;}
+    .numero__9{left: 3%;}
+
+    .ponteiro__segundo{
+        width: 3px;
+        height: 120px;
+    }
+
+    .ponteiro__minuto {
+        width: 7px;
+        height: 130px;
+    }
+
+    .ponteiro__hora {
+        width: 7px;
+        height: 100px;
+    }
+}
