@@ -86,7 +86,6 @@ body{
 .numero__1{
     top: 45px;
     right: 155px;
-    z-index: 20;
     /*border: 3px solid blue;*/
 }
 
@@ -97,6 +96,20 @@ body{
 }
 
 .numero__3{right: 25px;}
+
+.numero__4{
+    bottom: 140px;
+    right: 60px;
+    /*border: 3px solid blue;*/
+}
+
+.numero__5{
+    bottom: 45px;
+    right: 155px;
+    /*border: 3px solid blue;*/
+}
+
+
 .numero__6{bottom: 10px;}
 .numero__9{left: 25px;}
 
@@ -121,7 +134,7 @@ body{
     background-color: #fff;
     border: 0.2px solid #000;
     position: absolute;
-    transform: translate(0, -50%) rotate(90deg);
+    transform: translate(0, -50%) rotate(180deg);
     transform-origin: bottom center;
 }
 
