@@ -88,9 +88,11 @@ body{
 .numero__9{left: 25px;}
 
 .ponteiro__segundo{
-    width: 4px;
+    width: 5px;
     height: 250px;
-    background-color: brown;
+    /*background-color: brown;*/
+    background-color: #fff;
+    border: 0.1px solid #000;
     position: absolute;
     bottom: 50%;
     border-radius: 5px;
@@ -100,18 +102,22 @@ body{
 }
 
 .ponteiro__minuto {
-    width: 15px;
-    height: 240px;
-    background-color: blue;
+    width: 10px;
+    height: 260px;
+    /*background-color: blue;*/
+    background-color: #fff;
+    border: 0.2px solid #000;
     position: absolute;
     transform: translate(0, -50%);
     transform-origin: bottom center;
 }
 
 .ponteiro__hora {
-    width: 8px;
+    width: 10px;
     height: 200px;
-    background-color: red;
+    /*background-color: red;*/
+    background-color: #fff;
+    border: 0.2px solid #000;
     position: absolute;
     transform: translate(0, -50%);
     transform-origin: bottom center;
