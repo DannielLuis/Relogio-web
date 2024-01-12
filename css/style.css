@@ -131,13 +131,14 @@ body{
 
 .ponteiro__segundo{
     width: 5px;
-    height: 250px;
+    height: 310px; /*250px;*/
     background-color: #fff;
     border: 0.1px solid #000;
     position: absolute;
-    bottom: 50%;
+    /*bottom: 50%;*/
     border-radius: 5px;
-    transform-origin: bottom center;
+    /*transform-origin: bottom center;*/
+    transform-origin: 50% 20%;
     z-index: 10;
 }
 
