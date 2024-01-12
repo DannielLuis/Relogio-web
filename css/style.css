@@ -35,10 +35,10 @@ body{
     height: 600px;
     /*background-color: aqua;*/
     background-color: #000;
-    background-image: url('../ct_pesadelo.jpg');
+    /*background-image: url('../ct_pesadelo.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 86%;
+    background-size: 86%;*/
     border-radius: 50%;
     border: 3px solid gray;
     position: relative;
@@ -83,6 +83,19 @@ body{
 }
 
 .numero__12{top: 10px;}
+.numero__1{
+    top: 45px;
+    right: 155px;
+    z-index: 20;
+    /*border: 3px solid blue;*/
+}
+
+.numero__2{
+    top: 140px;
+    right: 60px;
+    /*border: 3px solid blue;*/
+}
+
 .numero__3{right: 25px;}
 .numero__6{bottom: 10px;}
 .numero__9{left: 25px;}
@@ -108,7 +121,7 @@ body{
     background-color: #fff;
     border: 0.2px solid #000;
     position: absolute;
-    transform: translate(0, -50%);
+    transform: translate(0, -50%) rotate(90deg);
     transform-origin: bottom center;
 }
 
