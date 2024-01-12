@@ -24,7 +24,7 @@ body{
 .fundo{
     width: 670px;
     height: 670px;
-    border-radius: 670px;
+    border-radius: 50%;
     position: absolute;
     border: 1px solid #000;
     background: radial-gradient(rgb(87, 77, 77) 60%, white 70%, black);
@@ -161,3 +161,38 @@ body{
     transform-origin: bottom center;
 }
 
+
+@media (max-width: 800px){
+    .fundo{
+        width: 450px;
+        height: 450px;
+    }
+
+    .relogio{
+        width: 400px;
+        height: 400px;
+    }
+
+    .center{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+
+    .numero{
+        font-size: 2rem;
+    }
+
+
+    .ponteiro__segundo{
+        height: 165px;
+    }
+
+    .ponteiro__minuto {
+        height: 180px;
+    }
+
+    .ponteiro__hora {
+        height: 130px;
+    }
+}
