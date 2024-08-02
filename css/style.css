@@ -132,10 +132,38 @@ body{
         border-radius: 50%;
     }
 
-    .numero{
-        font-size: 2rem;
+    .marcador_numeros{
+        width: 97%;
+        height: 97%;
+        /*width: 380px;
+        height: 380px;*/
+    }
+    
+    .marcador_numeros::before{
+        content: "";
+        width: 88%;
+        height: 88%;
+        /*width: 320px;
+        height: 320px;*/
     }
 
+    .numero{
+        padding: 0;
+        font-size: 1.7rem;
+    }
+
+    .numero__12{top: 1%;}
+    .numero__1{ top: 25px; right: 100px; }
+    .numero__2{ top: 90px; right: 35px; }
+    .numero__3{right: 3%;}
+    .numero__4{ bottom: 90px; right: 35px; }
+    .numero__5{ bottom: 25px; right: 100px; }
+    .numero__6{bottom: 0.5%;}
+    .numero__7{ bottom: 25px; left: 100px; }
+    .numero__8{ bottom: 90px; left: 35px; }
+    .numero__9{left: 3%;}
+    .numero__10{ top: 90px; left: 35px; }
+    .numero__11{ top: 25px; left: 100px; }
 
     .ponteiro__segundo{
         height: 165px;
