@@ -196,13 +196,22 @@ body{
     }
 
     .numero{
-        padding: 0;
-        font-size: 1.5rem;
+        /*padding: 0;*/
+        font-size: 1.3rem;
     }
+
     .numero__12{top: 1%;}
+    .numero__1{ top: 20px; right: 75px; }
+    .numero__2{ top: 65px; right: 25px; }
     .numero__3{right: 3%;}
+    .numero__4{ bottom: 65px; right: 25px; }
+    .numero__5{ bottom: 20px; right: 75px; }
     .numero__6{bottom: 0.5%;}
+    .numero__7{ bottom: 20px; left: 75px; }
+    .numero__8{ bottom: 65px; left: 25px; }
     .numero__9{left: 3%;}
+    .numero__10{ top: 65px; left: 25px; }
+    .numero__11{ top: 20px; left: 75px; }
 
     .ponteiro__segundo{
         width: 3px;
