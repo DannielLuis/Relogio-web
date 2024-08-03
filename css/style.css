@@ -59,8 +59,10 @@ body{
 }
 
 .marcador_numeros{
-    width: 550px;
-    height: 550px;
+    /*width: 550px;
+    height: 550px;*/
+    width: 570px;
+    height: 570px;
     border-radius: 50%;
     position: absolute;
     border: 3px solid blue;
@@ -68,8 +70,10 @@ body{
 
 .marcador_numeros::before{
     content: "";
-    width: 470px;
-    height: 470px;
+    /*width: 470px;
+    height: 470px;*/
+    width: 490px;
+    height: 490px;
     border-radius: 50%;
     position: absolute;
     border: 3px solid blue;
@@ -77,24 +81,31 @@ body{
 
 .numero{
     position: absolute;
-    padding: 5px;
+    /*padding: 5px;*/
     font-size: 40px;
     /*border: 3px solid blue;*/
     color: white;
 }
 
-.numero__12{ top: 10px; }
-.numero__1{ top: 45px; right: 155px; }
-.numero__2{ top: 140px; right: 60px; }
-.numero__3{ right: 25px; }
-.numero__4{ bottom: 140px; right: 60px; }
-.numero__5{ bottom: 45px; right: 155px; }
-.numero__6{ bottom: 10px; }
-.numero__7{ bottom: 45px; left: 155px; }
-.numero__8{ bottom: 140px; left: 60px; }
-.numero__9{ left: 25px; }
-.numero__10{ top: 140px; left: 50px; }
-.numero__11{ top: 45px; left: 145px; }
+.numero__12{ top: 5px; }
+
+.numero__1{ top: 40px; right: 150px; }
+.numero__2{ top: 135px; right: 55px; }
+
+.numero__3{ right: 20px; }
+
+.numero__4{ bottom: 135px; right: 55px; }
+.numero__5{ bottom: 40px; right: 150px; }
+
+.numero__6{ bottom: 5px; }
+
+.numero__7{ bottom: 40px; left: 150px; }
+.numero__8{ bottom: 135px; left: 55px; }
+
+.numero__9{ left: 20px; }
+
+.numero__10{ top: 135px; left: 45px; }
+.numero__11{ top: 40px; left: 140px; }
 
 .ponteiro{
     width: 10px;
