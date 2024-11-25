@@ -2,20 +2,20 @@
 
 
 <h2 align="center">Desktop</h2>
-<img src="./relogio-desktop.png" width="100%">
+<img src="./imagens/relogio-desktop.png" width="100%">
 <br>
 <br>
 
 <h2 align="center">Tablet</h2>
 <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-    <img src="./relogio-tablet.png" width="50%">
+    <img src="./imagens/relogio-tablet.png" width="50%">
 </div>
 <br>
 <br>
 
 <h2 align="center">Celular</h2>
 <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-    <img src="./relogio-celular.png" width="30%">
+    <img src="./imagens/relogio-celular.png" width="30%">
 </div>
 <br>
 <br>
